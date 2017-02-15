@@ -110,3 +110,10 @@ bin
 obj
 bin
 obj
+*.cache
+*.resources
+*.txt
+*.Cache
+*.dll
+*.pdb
+*.cs
