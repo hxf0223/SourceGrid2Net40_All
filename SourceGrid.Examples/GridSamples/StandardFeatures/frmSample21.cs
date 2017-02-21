@@ -54,18 +54,22 @@ namespace WindowsFormsSample
 			// 
 			// grid1
 			// 
-			this.grid1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-			                                                           | System.Windows.Forms.AnchorStyles.Left)
-			                                                          | System.Windows.Forms.AnchorStyles.Right)));
-			this.grid1.Location = new System.Drawing.Point(8, 8);
+			this.grid1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.grid1.EnableSort = true;
+			this.grid1.Location = new System.Drawing.Point(10, 9);
 			this.grid1.Name = "grid1";
-			this.grid1.Size = new System.Drawing.Size(612, 423);
-			this.grid1.SpecialKeys = SourceGrid.GridSpecialKeys.Default;
+			this.grid1.OptimizeMode = SourceGrid.CellOptimizeMode.ForRows;
+			this.grid1.SelectionMode = SourceGrid.GridSelectionMode.Cell;
+			this.grid1.Size = new System.Drawing.Size(608, 421);
 			this.grid1.TabIndex = 0;
+			this.grid1.TabStop = true;
+			this.grid1.ToolTipText = "";
 			// 
 			// frmSample21
 			// 
-			this.AutoScaleBaseSize = new System.Drawing.Size(5, 13);
+			this.AutoScaleBaseSize = new System.Drawing.Size(6, 14);
 			this.ClientSize = new System.Drawing.Size(628, 438);
 			this.Controls.Add(this.grid1);
 			this.Name = "frmSample21";

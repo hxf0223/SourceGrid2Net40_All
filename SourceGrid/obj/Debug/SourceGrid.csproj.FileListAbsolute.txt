@@ -25,7 +25,6 @@ D:\Documents\Downloads\SourceGrid-master\SourceGrid\obj\Debug\SourceGrid.pdb
 E:\workspace\SourceGridAll\SourceGrid\bin\Debug\SourceGrid.xml
 E:\workspace\SourceGridAll\SourceGrid\bin\Debug\SourceGrid.dll
 E:\workspace\SourceGridAll\SourceGrid\bin\Debug\SourceGrid.pdb
-E:\workspace\SourceGridAll\SourceGrid\obj\Debug\SourceGrid.csprojResolveAssemblyReference.cache
 E:\workspace\SourceGridAll\SourceGrid\obj\Debug\DevAge.Properties.Resources.resources
 E:\workspace\SourceGridAll\SourceGrid\obj\Debug\DevAge.Windows.Forms.ButtonMultiSelection.resources
 E:\workspace\SourceGridAll\SourceGrid\obj\Debug\DevAge.Windows.Forms.ColorPicker.resources
@@ -47,3 +46,4 @@ E:\workspace\SourceGridAll\SourceGrid\obj\Debug\SourceGrid.Planning.PlanningGrid
 E:\workspace\SourceGridAll\SourceGrid\obj\Debug\SourceGrid.csproj.GenerateResource.Cache
 E:\workspace\SourceGridAll\SourceGrid\obj\Debug\SourceGrid.dll
 E:\workspace\SourceGridAll\SourceGrid\obj\Debug\SourceGrid.pdb
+E:\workspace\SourceGridAll\SourceGrid\obj\Debug\SourceGrid.csprojResolveAssemblyReference.cache
