@@ -117,3 +117,16 @@ obj
 *.dll
 *.pdb
 *.cs
+obj
+Debug
+*.cs
+*.cache
+*.resources
+*.txt
+*.Cache
+*.dll
+*.pdb
+bin
+obj
+bin
+bin
