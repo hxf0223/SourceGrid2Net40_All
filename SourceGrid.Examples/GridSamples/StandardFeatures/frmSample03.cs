@@ -231,7 +231,6 @@ namespace WindowsFormsSample
 			{
 				bool isValid = char.IsNumber(keyArgs.KeyChar) ||
 					keyArgs.KeyChar == System.Globalization.CultureInfo.CurrentCulture.NumberFormat.NumberDecimalSeparator[0];
-
 				keyArgs.Handled = !isValid;
 			};
 			grid[currentRow, 1] = new SourceGrid.Cells.Cell(0.5);
