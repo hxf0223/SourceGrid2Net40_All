@@ -4,6 +4,7 @@ using System.Windows.Forms;
 
 using SourceGrid;
 using SourceGrid.Cells.Controllers;
+using System.Diagnostics;
 
 namespace WindowsFormsSample
 {
@@ -75,12 +76,13 @@ namespace WindowsFormsSample
 	
 		}
 		#endregion
-	
+
+
 		private void DoFull()
 		{
 			grid1.Redim(20, 4);
 			grid1.FixedRows = 1;
-	
+
 			grid1[0, 0] = new MyHeader("1");
 			grid1[0, 0].ColumnSpan = 3;
 			grid1[0, 0].AddController(new SourceGrid.Cells.Controllers.SortableHeader());
