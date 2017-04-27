@@ -107,6 +107,7 @@ namespace WindowsFormsSample
 		private void Form1_Load(object sender, System.EventArgs e)
 		{
 			grid1.Redim(10, 5);
+			grid1.SelectionMode = SourceGrid.GridSelectionMode.Row;
 
             //Setup the controllers
 			CellClickEvent clickController = new CellClickEvent();

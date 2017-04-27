@@ -239,52 +239,52 @@ namespace DevAge.TestApp
 			this.headerGroupBox1.Controls.Add(this.buttonMultiSelectionSample);
 			this.headerGroupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.headerGroupBox1.Image = ((System.Drawing.Image)(resources.GetObject("headerGroupBox1.Image")));
-			this.headerGroupBox1.Location = new System.Drawing.Point(28, 20);
+			this.headerGroupBox1.Location = new System.Drawing.Point(34, 22);
 			this.headerGroupBox1.Name = "headerGroupBox1";
-			this.headerGroupBox1.Size = new System.Drawing.Size(397, 108);
+			this.headerGroupBox1.Size = new System.Drawing.Size(476, 116);
 			this.headerGroupBox1.TabIndex = 0;
 			this.headerGroupBox1.TabStop = false;
 			this.headerGroupBox1.Text = "HeaderGroupBox Sample";
 			// 
 			// label8
 			// 
-			this.label8.Location = new System.Drawing.Point(16, 80);
+			this.label8.Location = new System.Drawing.Point(19, 86);
 			this.label8.Name = "label8";
-			this.label8.Size = new System.Drawing.Size(168, 23);
+			this.label8.Size = new System.Drawing.Size(202, 25);
 			this.label8.TabIndex = 5;
 			this.label8.Text = "ErrorDialog";
 			// 
 			// btShowError
 			// 
 			this.btShowError.FlatStyle = System.Windows.Forms.FlatStyle.System;
-			this.btShowError.Location = new System.Drawing.Point(196, 80);
+			this.btShowError.Location = new System.Drawing.Point(235, 86);
 			this.btShowError.Name = "btShowError";
-			this.btShowError.Size = new System.Drawing.Size(74, 23);
+			this.btShowError.Size = new System.Drawing.Size(89, 25);
 			this.btShowError.TabIndex = 4;
 			this.btShowError.Text = "ShowError";
 			this.btShowError.Click += new System.EventHandler(this.btShowError_Click);
 			// 
 			// label2
 			// 
-			this.label2.Location = new System.Drawing.Point(16, 52);
+			this.label2.Location = new System.Drawing.Point(19, 56);
 			this.label2.Name = "label2";
-			this.label2.Size = new System.Drawing.Size(168, 20);
+			this.label2.Size = new System.Drawing.Size(202, 22);
 			this.label2.TabIndex = 3;
 			this.label2.Text = "NumericUpDownEx Sample";
 			// 
 			// label1
 			// 
-			this.label1.Location = new System.Drawing.Point(16, 24);
+			this.label1.Location = new System.Drawing.Point(19, 26);
 			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(168, 20);
+			this.label1.Size = new System.Drawing.Size(202, 21);
 			this.label1.TabIndex = 2;
 			this.label1.Text = "Button Multi Selection Sample";
 			// 
 			// numericUpDownExSample
 			// 
-			this.numericUpDownExSample.Location = new System.Drawing.Point(192, 52);
+			this.numericUpDownExSample.Location = new System.Drawing.Point(230, 56);
 			this.numericUpDownExSample.Name = "numericUpDownExSample";
-			this.numericUpDownExSample.Size = new System.Drawing.Size(140, 20);
+			this.numericUpDownExSample.Size = new System.Drawing.Size(168, 20);
 			this.numericUpDownExSample.TabIndex = 1;
 			// 
 			// buttonMultiSelectionSample
@@ -293,9 +293,9 @@ namespace DevAge.TestApp
 			this.buttonMultiSelectionSample.DialogResult = System.Windows.Forms.DialogResult.None;
 			this.buttonMultiSelectionSample.Image = null;
 			this.buttonMultiSelectionSample.ImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.buttonMultiSelectionSample.Location = new System.Drawing.Point(192, 20);
+			this.buttonMultiSelectionSample.Location = new System.Drawing.Point(230, 22);
 			this.buttonMultiSelectionSample.Name = "buttonMultiSelectionSample";
-			this.buttonMultiSelectionSample.Size = new System.Drawing.Size(136, 23);
+			this.buttonMultiSelectionSample.Size = new System.Drawing.Size(164, 24);
 			this.buttonMultiSelectionSample.TabIndex = 0;
 			this.buttonMultiSelectionSample.Text = "Hello";
 			this.buttonMultiSelectionSample.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -308,9 +308,9 @@ namespace DevAge.TestApp
 			this.buttonMultiSelectionClose.DialogResult = System.Windows.Forms.DialogResult.None;
 			this.buttonMultiSelectionClose.Image = null;
 			this.buttonMultiSelectionClose.ImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.buttonMultiSelectionClose.Location = new System.Drawing.Point(396, 372);
+			this.buttonMultiSelectionClose.Location = new System.Drawing.Point(380, 370);
 			this.buttonMultiSelectionClose.Name = "buttonMultiSelectionClose";
-			this.buttonMultiSelectionClose.Size = new System.Drawing.Size(75, 23);
+			this.buttonMultiSelectionClose.Size = new System.Drawing.Size(90, 24);
 			this.buttonMultiSelectionClose.TabIndex = 1;
 			this.buttonMultiSelectionClose.Text = "Close";
 			this.buttonMultiSelectionClose.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -334,137 +334,137 @@ namespace DevAge.TestApp
 			this.headerGroupBox2.Controls.Add(this.textBoxTypedInt);
 			this.headerGroupBox2.Controls.Add(this.label3);
 			this.headerGroupBox2.Image = ((System.Drawing.Image)(resources.GetObject("headerGroupBox2.Image")));
-			this.headerGroupBox2.Location = new System.Drawing.Point(56, 32);
+			this.headerGroupBox2.Location = new System.Drawing.Point(67, 34);
 			this.headerGroupBox2.Name = "headerGroupBox2";
-			this.headerGroupBox2.Size = new System.Drawing.Size(340, 244);
+			this.headerGroupBox2.Size = new System.Drawing.Size(408, 263);
 			this.headerGroupBox2.TabIndex = 2;
 			this.headerGroupBox2.TabStop = false;
 			this.headerGroupBox2.Text = "TextBoxTyped and TypeConverter Samples";
 			// 
 			// textBoxTypedStringAbc
 			// 
-			this.textBoxTypedStringAbc.Location = new System.Drawing.Point(156, 160);
+			this.textBoxTypedStringAbc.Location = new System.Drawing.Point(187, 172);
 			this.textBoxTypedStringAbc.Name = "textBoxTypedStringAbc";
-			this.textBoxTypedStringAbc.Size = new System.Drawing.Size(156, 20);
+			this.textBoxTypedStringAbc.Size = new System.Drawing.Size(187, 21);
 			this.textBoxTypedStringAbc.TabIndex = 15;
 			// 
 			// label25
 			// 
-			this.label25.Location = new System.Drawing.Point(16, 160);
+			this.label25.Location = new System.Drawing.Point(19, 172);
 			this.label25.Name = "label25";
-			this.label25.Size = new System.Drawing.Size(132, 20);
+			this.label25.Size = new System.Drawing.Size(159, 22);
 			this.label25.TabIndex = 14;
 			this.label25.Text = "String only \"abc\"";
 			// 
 			// textBoxTypedDateTime
 			// 
-			this.textBoxTypedDateTime.Location = new System.Drawing.Point(156, 184);
+			this.textBoxTypedDateTime.Location = new System.Drawing.Point(187, 198);
 			this.textBoxTypedDateTime.Name = "textBoxTypedDateTime";
-			this.textBoxTypedDateTime.Size = new System.Drawing.Size(156, 20);
+			this.textBoxTypedDateTime.Size = new System.Drawing.Size(187, 21);
 			this.textBoxTypedDateTime.TabIndex = 13;
 			this.textBoxTypedDateTime.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
 			// 
 			// label13
 			// 
-			this.label13.Location = new System.Drawing.Point(16, 184);
+			this.label13.Location = new System.Drawing.Point(19, 198);
 			this.label13.Name = "label13";
-			this.label13.Size = new System.Drawing.Size(132, 20);
+			this.label13.Size = new System.Drawing.Size(159, 22);
 			this.label13.TabIndex = 12;
 			this.label13.Text = "DateTime (yyyy MM dd)";
 			// 
 			// textBoxTypedDoubleAllowNull
 			// 
-			this.textBoxTypedDoubleAllowNull.Location = new System.Drawing.Point(156, 136);
+			this.textBoxTypedDoubleAllowNull.Location = new System.Drawing.Point(187, 146);
 			this.textBoxTypedDoubleAllowNull.Name = "textBoxTypedDoubleAllowNull";
-			this.textBoxTypedDoubleAllowNull.Size = new System.Drawing.Size(156, 20);
+			this.textBoxTypedDoubleAllowNull.Size = new System.Drawing.Size(187, 21);
 			this.textBoxTypedDoubleAllowNull.TabIndex = 11;
 			this.textBoxTypedDoubleAllowNull.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
 			// 
 			// label12
 			// 
-			this.label12.Location = new System.Drawing.Point(16, 136);
+			this.label12.Location = new System.Drawing.Point(19, 146);
 			this.label12.Name = "label12";
-			this.label12.Size = new System.Drawing.Size(132, 20);
+			this.label12.Size = new System.Drawing.Size(159, 22);
 			this.label12.TabIndex = 10;
 			this.label12.Text = "Double (AllowNull)";
 			// 
 			// textBoxTypedPercent
 			// 
-			this.textBoxTypedPercent.Location = new System.Drawing.Point(156, 112);
+			this.textBoxTypedPercent.Location = new System.Drawing.Point(187, 121);
 			this.textBoxTypedPercent.Name = "textBoxTypedPercent";
-			this.textBoxTypedPercent.Size = new System.Drawing.Size(156, 20);
+			this.textBoxTypedPercent.Size = new System.Drawing.Size(187, 21);
 			this.textBoxTypedPercent.TabIndex = 9;
 			this.textBoxTypedPercent.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
 			// 
 			// label7
 			// 
-			this.label7.Location = new System.Drawing.Point(16, 112);
+			this.label7.Location = new System.Drawing.Point(19, 121);
 			this.label7.Name = "label7";
-			this.label7.Size = new System.Drawing.Size(132, 20);
+			this.label7.Size = new System.Drawing.Size(159, 21);
 			this.label7.TabIndex = 8;
 			this.label7.Text = "Double Percent";
 			// 
 			// textBoxTypedCurrency
 			// 
-			this.textBoxTypedCurrency.Location = new System.Drawing.Point(156, 90);
+			this.textBoxTypedCurrency.Location = new System.Drawing.Point(187, 97);
 			this.textBoxTypedCurrency.Name = "textBoxTypedCurrency";
-			this.textBoxTypedCurrency.Size = new System.Drawing.Size(156, 20);
+			this.textBoxTypedCurrency.Size = new System.Drawing.Size(187, 21);
 			this.textBoxTypedCurrency.TabIndex = 7;
 			this.textBoxTypedCurrency.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
 			// 
 			// label6
 			// 
-			this.label6.Location = new System.Drawing.Point(16, 90);
+			this.label6.Location = new System.Drawing.Point(19, 97);
 			this.label6.Name = "label6";
-			this.label6.Size = new System.Drawing.Size(132, 18);
+			this.label6.Size = new System.Drawing.Size(159, 19);
 			this.label6.TabIndex = 6;
 			this.label6.Text = "Decimal Currency";
 			// 
 			// textBoxTypedDecimal
 			// 
-			this.textBoxTypedDecimal.Location = new System.Drawing.Point(156, 68);
+			this.textBoxTypedDecimal.Location = new System.Drawing.Point(187, 73);
 			this.textBoxTypedDecimal.Name = "textBoxTypedDecimal";
-			this.textBoxTypedDecimal.Size = new System.Drawing.Size(156, 20);
+			this.textBoxTypedDecimal.Size = new System.Drawing.Size(187, 21);
 			this.textBoxTypedDecimal.TabIndex = 5;
 			this.textBoxTypedDecimal.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
 			// 
 			// label5
 			// 
-			this.label5.Location = new System.Drawing.Point(16, 68);
+			this.label5.Location = new System.Drawing.Point(19, 73);
 			this.label5.Name = "label5";
-			this.label5.Size = new System.Drawing.Size(132, 20);
+			this.label5.Size = new System.Drawing.Size(159, 22);
 			this.label5.TabIndex = 4;
 			this.label5.Text = "Decimal";
 			// 
 			// textBoxTypedDouble
 			// 
-			this.textBoxTypedDouble.Location = new System.Drawing.Point(156, 44);
+			this.textBoxTypedDouble.Location = new System.Drawing.Point(187, 47);
 			this.textBoxTypedDouble.Name = "textBoxTypedDouble";
-			this.textBoxTypedDouble.Size = new System.Drawing.Size(156, 20);
+			this.textBoxTypedDouble.Size = new System.Drawing.Size(187, 21);
 			this.textBoxTypedDouble.TabIndex = 3;
 			this.textBoxTypedDouble.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
 			// 
 			// label4
 			// 
-			this.label4.Location = new System.Drawing.Point(16, 44);
+			this.label4.Location = new System.Drawing.Point(19, 47);
 			this.label4.Name = "label4";
-			this.label4.Size = new System.Drawing.Size(132, 20);
+			this.label4.Size = new System.Drawing.Size(159, 22);
 			this.label4.TabIndex = 2;
 			this.label4.Text = "Double";
 			// 
 			// textBoxTypedInt
 			// 
-			this.textBoxTypedInt.Location = new System.Drawing.Point(156, 20);
+			this.textBoxTypedInt.Location = new System.Drawing.Point(187, 22);
 			this.textBoxTypedInt.Name = "textBoxTypedInt";
-			this.textBoxTypedInt.Size = new System.Drawing.Size(156, 20);
+			this.textBoxTypedInt.Size = new System.Drawing.Size(187, 21);
 			this.textBoxTypedInt.TabIndex = 1;
 			this.textBoxTypedInt.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
 			// 
 			// label3
 			// 
-			this.label3.Location = new System.Drawing.Point(16, 20);
+			this.label3.Location = new System.Drawing.Point(19, 22);
 			this.label3.Name = "label3";
-			this.label3.Size = new System.Drawing.Size(132, 20);
+			this.label3.Size = new System.Drawing.Size(159, 21);
 			this.label3.TabIndex = 0;
 			this.label3.Text = "Int";
 			// 
@@ -482,9 +482,9 @@ namespace DevAge.TestApp
 			this.headerGroupBox3.Controls.Add(this.label9);
 			this.headerGroupBox3.Controls.Add(this.txtMailToTo);
 			this.headerGroupBox3.Image = ((System.Drawing.Image)(resources.GetObject("headerGroupBox3.Image")));
-			this.headerGroupBox3.Location = new System.Drawing.Point(28, 132);
+			this.headerGroupBox3.Location = new System.Drawing.Point(34, 142);
 			this.headerGroupBox3.Name = "headerGroupBox3";
-			this.headerGroupBox3.Size = new System.Drawing.Size(340, 92);
+			this.headerGroupBox3.Size = new System.Drawing.Size(408, 99);
 			this.headerGroupBox3.TabIndex = 3;
 			this.headerGroupBox3.TabStop = false;
 			this.headerGroupBox3.Text = "MailTo Protocol Sample";
@@ -493,15 +493,15 @@ namespace DevAge.TestApp
 			// 
 			this.linkLabel1.BackColor = System.Drawing.SystemColors.Control;
 			this.linkLabel1.BorderColor = System.Drawing.Color.Black;
-			this.linkLabel1.BorderRound = 0;
+			this.linkLabel1.BorderRound = 0D;
 			this.linkLabel1.Cursor = System.Windows.Forms.Cursors.Hand;
 			this.linkLabel1.EnableMouseEffect = true;
 			this.linkLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.linkLabel1.ForeColor = System.Drawing.Color.Blue;
 			this.linkLabel1.Image = ((System.Drawing.Image)(resources.GetObject("linkLabel1.Image")));
-			this.linkLabel1.Location = new System.Drawing.Point(244, 68);
+			this.linkLabel1.Location = new System.Drawing.Point(293, 73);
 			this.linkLabel1.Name = "linkLabel1";
-			this.linkLabel1.Size = new System.Drawing.Size(92, 20);
+			this.linkLabel1.Size = new System.Drawing.Size(110, 22);
 			this.linkLabel1.TabIndex = 7;
 			this.linkLabel1.Text = "Open MailTo";
 			this.linkLabel1.TextAlignment = DevAge.Drawing.ContentAlignment.BottomCenter;
@@ -509,49 +509,49 @@ namespace DevAge.TestApp
 			// 
 			// label11
 			// 
-			this.label11.Location = new System.Drawing.Point(16, 68);
+			this.label11.Location = new System.Drawing.Point(19, 73);
 			this.label11.Name = "label11";
-			this.label11.Size = new System.Drawing.Size(72, 20);
+			this.label11.Size = new System.Drawing.Size(87, 22);
 			this.label11.TabIndex = 5;
 			this.label11.Text = "Body";
 			// 
 			// txtMailToBody
 			// 
-			this.txtMailToBody.Location = new System.Drawing.Point(88, 68);
+			this.txtMailToBody.Location = new System.Drawing.Point(106, 73);
 			this.txtMailToBody.Name = "txtMailToBody";
-			this.txtMailToBody.Size = new System.Drawing.Size(152, 20);
+			this.txtMailToBody.Size = new System.Drawing.Size(182, 21);
 			this.txtMailToBody.TabIndex = 4;
 			this.txtMailToBody.Text = "Hello World !";
 			// 
 			// label10
 			// 
-			this.label10.Location = new System.Drawing.Point(16, 44);
+			this.label10.Location = new System.Drawing.Point(19, 47);
 			this.label10.Name = "label10";
-			this.label10.Size = new System.Drawing.Size(72, 20);
+			this.label10.Size = new System.Drawing.Size(87, 22);
 			this.label10.TabIndex = 3;
 			this.label10.Text = "Subject";
 			// 
 			// txtMailToSubject
 			// 
-			this.txtMailToSubject.Location = new System.Drawing.Point(88, 44);
+			this.txtMailToSubject.Location = new System.Drawing.Point(106, 47);
 			this.txtMailToSubject.Name = "txtMailToSubject";
-			this.txtMailToSubject.Size = new System.Drawing.Size(152, 20);
+			this.txtMailToSubject.Size = new System.Drawing.Size(182, 21);
 			this.txtMailToSubject.TabIndex = 2;
 			this.txtMailToSubject.Text = "Hello";
 			// 
 			// label9
 			// 
-			this.label9.Location = new System.Drawing.Point(16, 20);
+			this.label9.Location = new System.Drawing.Point(19, 22);
 			this.label9.Name = "label9";
-			this.label9.Size = new System.Drawing.Size(72, 20);
+			this.label9.Size = new System.Drawing.Size(87, 21);
 			this.label9.TabIndex = 1;
 			this.label9.Text = "To";
 			// 
 			// txtMailToTo
 			// 
-			this.txtMailToTo.Location = new System.Drawing.Point(88, 20);
+			this.txtMailToTo.Location = new System.Drawing.Point(106, 22);
 			this.txtMailToTo.Name = "txtMailToTo";
-			this.txtMailToTo.Size = new System.Drawing.Size(152, 20);
+			this.txtMailToTo.Size = new System.Drawing.Size(182, 21);
 			this.txtMailToTo.TabIndex = 0;
 			this.txtMailToTo.Text = "support@mymail.it";
 			// 
@@ -580,70 +580,70 @@ namespace DevAge.TestApp
 			this.headerGroupBox4.Controls.Add(this.label14);
 			this.headerGroupBox4.Controls.Add(this.panelGradientSample);
 			this.headerGroupBox4.Image = null;
-			this.headerGroupBox4.Location = new System.Drawing.Point(76, 32);
+			this.headerGroupBox4.Location = new System.Drawing.Point(91, 34);
 			this.headerGroupBox4.Name = "headerGroupBox4";
-			this.headerGroupBox4.Size = new System.Drawing.Size(328, 152);
+			this.headerGroupBox4.Size = new System.Drawing.Size(394, 164);
 			this.headerGroupBox4.TabIndex = 4;
 			this.headerGroupBox4.TabStop = false;
 			this.headerGroupBox4.Text = "Gradient 3D Border";
 			// 
 			// label18
 			// 
-			this.label18.Location = new System.Drawing.Point(8, 120);
+			this.label18.Location = new System.Drawing.Point(10, 129);
 			this.label18.Name = "label18";
-			this.label18.Size = new System.Drawing.Size(128, 20);
+			this.label18.Size = new System.Drawing.Size(153, 22);
 			this.label18.TabIndex = 13;
 			this.label18.Text = "LightColor";
 			// 
 			// colorPickerLight
 			// 
-			this.colorPickerLight.Location = new System.Drawing.Point(136, 120);
+			this.colorPickerLight.Location = new System.Drawing.Point(163, 129);
 			this.colorPickerLight.Name = "colorPickerLight";
 			this.colorPickerLight.SelectedColor = System.Drawing.Color.Azure;
-			this.colorPickerLight.Size = new System.Drawing.Size(168, 20);
+			this.colorPickerLight.Size = new System.Drawing.Size(202, 22);
 			this.colorPickerLight.TabIndex = 12;
 			this.colorPickerLight.SelectedColorChanged += new System.EventHandler(this.colorPickerLight_SelectedColorChanged);
 			// 
 			// label17
 			// 
-			this.label17.Location = new System.Drawing.Point(8, 96);
+			this.label17.Location = new System.Drawing.Point(10, 103);
 			this.label17.Name = "label17";
-			this.label17.Size = new System.Drawing.Size(128, 20);
+			this.label17.Size = new System.Drawing.Size(153, 22);
 			this.label17.TabIndex = 11;
 			this.label17.Text = "DarkColor";
 			// 
 			// colorPickerDark
 			// 
-			this.colorPickerDark.Location = new System.Drawing.Point(136, 96);
+			this.colorPickerDark.Location = new System.Drawing.Point(163, 103);
 			this.colorPickerDark.Name = "colorPickerDark";
 			this.colorPickerDark.SelectedColor = System.Drawing.Color.CornflowerBlue;
-			this.colorPickerDark.Size = new System.Drawing.Size(168, 20);
+			this.colorPickerDark.Size = new System.Drawing.Size(202, 22);
 			this.colorPickerDark.TabIndex = 10;
 			this.colorPickerDark.SelectedColorChanged += new System.EventHandler(this.colorPickerDark_SelectedColorChanged);
 			// 
 			// label16
 			// 
-			this.label16.Location = new System.Drawing.Point(8, 72);
+			this.label16.Location = new System.Drawing.Point(10, 78);
 			this.label16.Name = "label16";
-			this.label16.Size = new System.Drawing.Size(128, 20);
+			this.label16.Size = new System.Drawing.Size(153, 21);
 			this.label16.TabIndex = 9;
 			this.label16.Text = "BackColor";
 			// 
 			// colorPickerBackColor
 			// 
-			this.colorPickerBackColor.Location = new System.Drawing.Point(136, 72);
+			this.colorPickerBackColor.Location = new System.Drawing.Point(163, 78);
 			this.colorPickerBackColor.Name = "colorPickerBackColor";
 			this.colorPickerBackColor.SelectedColor = System.Drawing.Color.LightSteelBlue;
-			this.colorPickerBackColor.Size = new System.Drawing.Size(168, 20);
+			this.colorPickerBackColor.Size = new System.Drawing.Size(202, 21);
 			this.colorPickerBackColor.TabIndex = 8;
 			this.colorPickerBackColor.SelectedColorChanged += new System.EventHandler(this.colorPickerBackColor_SelectedColorChanged);
 			// 
 			// rdSunken
 			// 
 			this.rdSunken.FlatStyle = System.Windows.Forms.FlatStyle.System;
-			this.rdSunken.Location = new System.Drawing.Point(128, 44);
+			this.rdSunken.Location = new System.Drawing.Point(154, 47);
 			this.rdSunken.Name = "rdSunken";
-			this.rdSunken.Size = new System.Drawing.Size(88, 24);
+			this.rdSunken.Size = new System.Drawing.Size(105, 26);
 			this.rdSunken.TabIndex = 7;
 			this.rdSunken.Text = "Sunken";
 			this.rdSunken.CheckedChanged += new System.EventHandler(this.rdSunken_CheckedChanged);
@@ -652,9 +652,9 @@ namespace DevAge.TestApp
 			// 
 			this.rdRaised.Checked = true;
 			this.rdRaised.FlatStyle = System.Windows.Forms.FlatStyle.System;
-			this.rdRaised.Location = new System.Drawing.Point(128, 20);
+			this.rdRaised.Location = new System.Drawing.Point(154, 22);
 			this.rdRaised.Name = "rdRaised";
-			this.rdRaised.Size = new System.Drawing.Size(88, 24);
+			this.rdRaised.Size = new System.Drawing.Size(105, 25);
 			this.rdRaised.TabIndex = 6;
 			this.rdRaised.TabStop = true;
 			this.rdRaised.Text = "Raised";
@@ -662,51 +662,51 @@ namespace DevAge.TestApp
 			// 
 			// txtDarkWidth
 			// 
-			this.txtDarkWidth.Location = new System.Drawing.Point(80, 44);
+			this.txtDarkWidth.Location = new System.Drawing.Point(96, 47);
 			this.txtDarkWidth.Name = "txtDarkWidth";
-			this.txtDarkWidth.Size = new System.Drawing.Size(40, 20);
+			this.txtDarkWidth.Size = new System.Drawing.Size(48, 21);
 			this.txtDarkWidth.TabIndex = 5;
 			this.txtDarkWidth.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
 			this.txtDarkWidth.Validated += new System.EventHandler(this.txtDarkWidth_Validated);
 			// 
 			// label15
 			// 
-			this.label15.Location = new System.Drawing.Point(8, 44);
+			this.label15.Location = new System.Drawing.Point(10, 47);
 			this.label15.Name = "label15";
-			this.label15.Size = new System.Drawing.Size(68, 20);
+			this.label15.Size = new System.Drawing.Size(81, 22);
 			this.label15.TabIndex = 4;
 			this.label15.Text = "Dark Width:";
 			// 
 			// txtLightWidth
 			// 
-			this.txtLightWidth.Location = new System.Drawing.Point(80, 20);
+			this.txtLightWidth.Location = new System.Drawing.Point(96, 22);
 			this.txtLightWidth.Name = "txtLightWidth";
-			this.txtLightWidth.Size = new System.Drawing.Size(40, 20);
+			this.txtLightWidth.Size = new System.Drawing.Size(48, 21);
 			this.txtLightWidth.TabIndex = 3;
 			this.txtLightWidth.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
 			this.txtLightWidth.Validated += new System.EventHandler(this.txtLightWidth_Validated);
 			// 
 			// label14
 			// 
-			this.label14.Location = new System.Drawing.Point(8, 20);
+			this.label14.Location = new System.Drawing.Point(10, 22);
 			this.label14.Name = "label14";
-			this.label14.Size = new System.Drawing.Size(68, 20);
+			this.label14.Size = new System.Drawing.Size(81, 21);
 			this.label14.TabIndex = 2;
 			this.label14.Text = "Light Width:";
 			// 
 			// panelGradientSample
 			// 
-			this.panelGradientSample.Location = new System.Drawing.Point(220, 28);
+			this.panelGradientSample.Location = new System.Drawing.Point(264, 30);
 			this.panelGradientSample.Name = "panelGradientSample";
-			this.panelGradientSample.Size = new System.Drawing.Size(100, 28);
+			this.panelGradientSample.Size = new System.Drawing.Size(120, 30);
 			this.panelGradientSample.TabIndex = 0;
 			this.panelGradientSample.Paint += new System.Windows.Forms.PaintEventHandler(this.panelGradientSample_Paint);
 			// 
 			// cmbTypedEnumBorderStyle
 			// 
-			this.cmbTypedEnumBorderStyle.Location = new System.Drawing.Point(152, 20);
+			this.cmbTypedEnumBorderStyle.Location = new System.Drawing.Point(182, 22);
 			this.cmbTypedEnumBorderStyle.Name = "cmbTypedEnumBorderStyle";
-			this.cmbTypedEnumBorderStyle.Size = new System.Drawing.Size(156, 21);
+			this.cmbTypedEnumBorderStyle.Size = new System.Drawing.Size(188, 20);
 			this.cmbTypedEnumBorderStyle.TabIndex = 5;
 			// 
 			// headerGroupBox5
@@ -720,64 +720,64 @@ namespace DevAge.TestApp
 			this.headerGroupBox5.Controls.Add(this.label19);
 			this.headerGroupBox5.Controls.Add(this.cmbTypedEnumBorderStyle);
 			this.headerGroupBox5.Image = null;
-			this.headerGroupBox5.Location = new System.Drawing.Point(8, 20);
+			this.headerGroupBox5.Location = new System.Drawing.Point(10, 22);
 			this.headerGroupBox5.Name = "headerGroupBox5";
-			this.headerGroupBox5.Size = new System.Drawing.Size(428, 140);
+			this.headerGroupBox5.Size = new System.Drawing.Size(513, 150);
 			this.headerGroupBox5.TabIndex = 6;
 			this.headerGroupBox5.TabStop = false;
 			this.headerGroupBox5.Text = "Enums";
 			// 
 			// cmbFlatStyle
 			// 
-			this.cmbFlatStyle.Location = new System.Drawing.Point(152, 48);
+			this.cmbFlatStyle.Location = new System.Drawing.Point(182, 52);
 			this.cmbFlatStyle.Name = "cmbFlatStyle";
-			this.cmbFlatStyle.Size = new System.Drawing.Size(156, 21);
+			this.cmbFlatStyle.Size = new System.Drawing.Size(188, 20);
 			this.cmbFlatStyle.TabIndex = 12;
 			// 
 			// lblFlatStyle
 			// 
-			this.lblFlatStyle.Location = new System.Drawing.Point(8, 51);
+			this.lblFlatStyle.Location = new System.Drawing.Point(10, 55);
 			this.lblFlatStyle.Name = "lblFlatStyle";
-			this.lblFlatStyle.Size = new System.Drawing.Size(140, 16);
+			this.lblFlatStyle.Size = new System.Drawing.Size(168, 17);
 			this.lblFlatStyle.TabIndex = 11;
 			this.lblFlatStyle.Text = "FlatStyle";
 			// 
 			// label21
 			// 
-			this.label21.Location = new System.Drawing.Point(8, 108);
+			this.label21.Location = new System.Drawing.Point(10, 116);
 			this.label21.Name = "label21";
-			this.label21.Size = new System.Drawing.Size(140, 16);
+			this.label21.Size = new System.Drawing.Size(168, 18);
 			this.label21.TabIndex = 10;
 			this.label21.Text = "UITypeEditor AnchorStyle";
 			// 
 			// txtBoxUITypeEditorAnchorStyle
 			// 
 			this.txtBoxUITypeEditorAnchorStyle.BackColor = System.Drawing.Color.Transparent;
-			this.txtBoxUITypeEditorAnchorStyle.Location = new System.Drawing.Point(152, 104);
+			this.txtBoxUITypeEditorAnchorStyle.Location = new System.Drawing.Point(182, 112);
 			this.txtBoxUITypeEditorAnchorStyle.Name = "txtBoxUITypeEditorAnchorStyle";
-			this.txtBoxUITypeEditorAnchorStyle.Size = new System.Drawing.Size(156, 20);
+			this.txtBoxUITypeEditorAnchorStyle.Size = new System.Drawing.Size(188, 22);
 			this.txtBoxUITypeEditorAnchorStyle.TabIndex = 9;
 			// 
 			// label20
 			// 
-			this.label20.Location = new System.Drawing.Point(8, 79);
+			this.label20.Location = new System.Drawing.Point(10, 85);
 			this.label20.Name = "label20";
-			this.label20.Size = new System.Drawing.Size(140, 16);
+			this.label20.Size = new System.Drawing.Size(168, 17);
 			this.label20.TabIndex = 8;
 			this.label20.Text = "ComboBox Controls";
 			// 
 			// cmbTypedControls
 			// 
-			this.cmbTypedControls.Location = new System.Drawing.Point(152, 76);
+			this.cmbTypedControls.Location = new System.Drawing.Point(182, 82);
 			this.cmbTypedControls.Name = "cmbTypedControls";
-			this.cmbTypedControls.Size = new System.Drawing.Size(156, 21);
+			this.cmbTypedControls.Size = new System.Drawing.Size(188, 20);
 			this.cmbTypedControls.TabIndex = 7;
 			// 
 			// label19
 			// 
-			this.label19.Location = new System.Drawing.Point(8, 23);
+			this.label19.Location = new System.Drawing.Point(10, 25);
 			this.label19.Name = "label19";
-			this.label19.Size = new System.Drawing.Size(140, 16);
+			this.label19.Size = new System.Drawing.Size(168, 17);
 			this.label19.TabIndex = 6;
 			this.label19.Text = "Enum BorderStyle";
 			// 
@@ -786,7 +786,7 @@ namespace DevAge.TestApp
 			this.line1.DashStyle = System.Drawing.Drawing2D.DashStyle.Solid;
 			this.line1.FirstColor = System.Drawing.SystemColors.ControlDark;
 			this.line1.LineStyle = DevAge.Windows.Forms.LineStyle.Horizontal;
-			this.line1.Location = new System.Drawing.Point(120, 268);
+			this.line1.Location = new System.Drawing.Point(144, 289);
 			this.line1.Name = "line1";
 			this.line1.SecondColor = System.Drawing.SystemColors.ControlLightLight;
 			this.line1.Size = new System.Drawing.Size(48, 2);
@@ -798,7 +798,7 @@ namespace DevAge.TestApp
 			this.line2.DashStyle = System.Drawing.Drawing2D.DashStyle.Solid;
 			this.line2.FirstColor = System.Drawing.SystemColors.ControlDark;
 			this.line2.LineStyle = DevAge.Windows.Forms.LineStyle.Vertical;
-			this.line2.Location = new System.Drawing.Point(180, 272);
+			this.line2.Location = new System.Drawing.Point(216, 293);
 			this.line2.Name = "line2";
 			this.line2.SecondColor = System.Drawing.SystemColors.ControlLightLight;
 			this.line2.Size = new System.Drawing.Size(2, 20);
@@ -807,19 +807,19 @@ namespace DevAge.TestApp
 			// 
 			// tabControl1
 			// 
-			this.tabControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-						| System.Windows.Forms.AnchorStyles.Left)
-						| System.Windows.Forms.AnchorStyles.Right)));
+			this.tabControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
 			this.tabControl1.Controls.Add(this.tabPage5);
 			this.tabControl1.Controls.Add(this.tabPage8);
 			this.tabControl1.Controls.Add(this.tabPage1);
 			this.tabControl1.Controls.Add(this.tabPage7);
 			this.tabControl1.Controls.Add(this.tabPage2);
 			this.tabControl1.Controls.Add(this.tabPage6);
-			this.tabControl1.Location = new System.Drawing.Point(12, 12);
+			this.tabControl1.Location = new System.Drawing.Point(14, 13);
 			this.tabControl1.Name = "tabControl1";
 			this.tabControl1.SelectedIndex = 0;
-			this.tabControl1.Size = new System.Drawing.Size(456, 348);
+			this.tabControl1.Size = new System.Drawing.Size(453, 344);
 			this.tabControl1.TabIndex = 15;
 			// 
 			// tabPage5
@@ -827,7 +827,7 @@ namespace DevAge.TestApp
 			this.tabPage5.Controls.Add(this.headerGroupBox2);
 			this.tabPage5.Location = new System.Drawing.Point(4, 22);
 			this.tabPage5.Name = "tabPage5";
-			this.tabPage5.Size = new System.Drawing.Size(448, 322);
+			this.tabPage5.Size = new System.Drawing.Size(445, 318);
 			this.tabPage5.TabIndex = 4;
 			this.tabPage5.Text = "TextBoxTyped";
 			// 
@@ -842,7 +842,7 @@ namespace DevAge.TestApp
 			this.tabPage8.Controls.Add(this.linkLabel2);
 			this.tabPage8.Location = new System.Drawing.Point(4, 22);
 			this.tabPage8.Name = "tabPage8";
-			this.tabPage8.Size = new System.Drawing.Size(448, 322);
+			this.tabPage8.Size = new System.Drawing.Size(540, 349);
 			this.tabPage8.TabIndex = 7;
 			this.tabPage8.Text = "LinkLabel";
 			// 
@@ -850,16 +850,16 @@ namespace DevAge.TestApp
 			// 
 			this.linkLabel7.BackColor = System.Drawing.Color.RoyalBlue;
 			this.linkLabel7.BorderColor = System.Drawing.Color.MidnightBlue;
-			this.linkLabel7.BorderRound = 0.2;
+			this.linkLabel7.BorderRound = 0.2D;
 			this.linkLabel7.BorderWidth = 1;
 			this.linkLabel7.Cursor = System.Windows.Forms.Cursors.Default;
 			this.linkLabel7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.linkLabel7.ForeColor = System.Drawing.Color.White;
 			this.linkLabel7.Image = ((System.Drawing.Image)(resources.GetObject("linkLabel7.Image")));
 			this.linkLabel7.ImageAlignment = DevAge.Drawing.ContentAlignment.TopRight;
-			this.linkLabel7.Location = new System.Drawing.Point(228, 132);
+			this.linkLabel7.Location = new System.Drawing.Point(274, 142);
 			this.linkLabel7.Name = "linkLabel7";
-			this.linkLabel7.Size = new System.Drawing.Size(72, 40);
+			this.linkLabel7.Size = new System.Drawing.Size(86, 43);
 			this.linkLabel7.TabIndex = 30;
 			this.linkLabel7.Text = "Test";
 			this.linkLabel7.TextAlignment = DevAge.Drawing.ContentAlignment.BottomCenter;
@@ -868,16 +868,16 @@ namespace DevAge.TestApp
 			// 
 			this.linkLabel6.BackColor = System.Drawing.Color.Khaki;
 			this.linkLabel6.BorderColor = System.Drawing.Color.Goldenrod;
-			this.linkLabel6.BorderRound = 0.3;
+			this.linkLabel6.BorderRound = 0.3D;
 			this.linkLabel6.BorderWidth = 3;
 			this.linkLabel6.Cursor = System.Windows.Forms.Cursors.Hand;
 			this.linkLabel6.EnableMouseEffect = true;
 			this.linkLabel6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.linkLabel6.ForeColor = System.Drawing.Color.Blue;
 			this.linkLabel6.ImageAlignment = DevAge.Drawing.ContentAlignment.TopCenter;
-			this.linkLabel6.Location = new System.Drawing.Point(216, 80);
+			this.linkLabel6.Location = new System.Drawing.Point(259, 86);
 			this.linkLabel6.Name = "linkLabel6";
-			this.linkLabel6.Size = new System.Drawing.Size(96, 36);
+			this.linkLabel6.Size = new System.Drawing.Size(115, 39);
 			this.linkLabel6.TabIndex = 29;
 			this.linkLabel6.Text = "Sample Link";
 			this.linkLabel6.TextAlignment = DevAge.Drawing.ContentAlignment.MiddleCenter;
@@ -886,16 +886,16 @@ namespace DevAge.TestApp
 			// 
 			this.linkLabel5.BackColor = System.Drawing.SystemColors.Control;
 			this.linkLabel5.BorderColor = System.Drawing.Color.Black;
-			this.linkLabel5.BorderRound = 0.3;
+			this.linkLabel5.BorderRound = 0.3D;
 			this.linkLabel5.Cursor = System.Windows.Forms.Cursors.Hand;
 			this.linkLabel5.EnableMouseEffect = true;
 			this.linkLabel5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.linkLabel5.ForeColor = System.Drawing.Color.Blue;
 			this.linkLabel5.Image = ((System.Drawing.Image)(resources.GetObject("linkLabel5.Image")));
 			this.linkLabel5.ImageAlignment = DevAge.Drawing.ContentAlignment.TopCenter;
-			this.linkLabel5.Location = new System.Drawing.Point(104, 92);
+			this.linkLabel5.Location = new System.Drawing.Point(125, 99);
 			this.linkLabel5.Name = "linkLabel5";
-			this.linkLabel5.Size = new System.Drawing.Size(72, 40);
+			this.linkLabel5.Size = new System.Drawing.Size(86, 43);
 			this.linkLabel5.TabIndex = 28;
 			this.linkLabel5.Text = "Sample Link";
 			this.linkLabel5.TextAlignment = DevAge.Drawing.ContentAlignment.BottomCenter;
@@ -904,16 +904,16 @@ namespace DevAge.TestApp
 			// 
 			this.linkLabel4.BackColor = System.Drawing.Color.Khaki;
 			this.linkLabel4.BorderColor = System.Drawing.Color.Goldenrod;
-			this.linkLabel4.BorderRound = 0.3;
+			this.linkLabel4.BorderRound = 0.3D;
 			this.linkLabel4.BorderWidth = 1;
 			this.linkLabel4.Cursor = System.Windows.Forms.Cursors.Hand;
 			this.linkLabel4.EnableMouseEffect = true;
 			this.linkLabel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.linkLabel4.ForeColor = System.Drawing.Color.Blue;
 			this.linkLabel4.ImageAlignment = DevAge.Drawing.ContentAlignment.TopCenter;
-			this.linkLabel4.Location = new System.Drawing.Point(264, 32);
+			this.linkLabel4.Location = new System.Drawing.Point(317, 34);
 			this.linkLabel4.Name = "linkLabel4";
-			this.linkLabel4.Size = new System.Drawing.Size(88, 28);
+			this.linkLabel4.Size = new System.Drawing.Size(105, 31);
 			this.linkLabel4.TabIndex = 27;
 			this.linkLabel4.Text = "Sample Link";
 			this.linkLabel4.TextAlignment = DevAge.Drawing.ContentAlignment.MiddleCenter;
@@ -922,7 +922,7 @@ namespace DevAge.TestApp
 			// 
 			this.linkLabel3.BackColor = System.Drawing.SystemColors.Control;
 			this.linkLabel3.BorderColor = System.Drawing.Color.Black;
-			this.linkLabel3.BorderRound = 0;
+			this.linkLabel3.BorderRound = 0D;
 			this.linkLabel3.Cursor = System.Windows.Forms.Cursors.Hand;
 			this.linkLabel3.Enabled = false;
 			this.linkLabel3.EnableMouseEffect = true;
@@ -930,18 +930,18 @@ namespace DevAge.TestApp
 			this.linkLabel3.ForeColor = System.Drawing.Color.Blue;
 			this.linkLabel3.Image = ((System.Drawing.Image)(resources.GetObject("linkLabel3.Image")));
 			this.linkLabel3.ImageAlignment = DevAge.Drawing.ContentAlignment.TopCenter;
-			this.linkLabel3.Location = new System.Drawing.Point(176, 20);
+			this.linkLabel3.Location = new System.Drawing.Point(211, 22);
 			this.linkLabel3.Name = "linkLabel3";
-			this.linkLabel3.Size = new System.Drawing.Size(72, 40);
+			this.linkLabel3.Size = new System.Drawing.Size(87, 43);
 			this.linkLabel3.TabIndex = 26;
 			this.linkLabel3.Text = "Sample Link";
 			this.linkLabel3.TextAlignment = DevAge.Drawing.ContentAlignment.BottomCenter;
 			// 
 			// label24
 			// 
-			this.label24.Location = new System.Drawing.Point(24, 28);
+			this.label24.Location = new System.Drawing.Point(29, 30);
 			this.label24.Name = "label24";
-			this.label24.Size = new System.Drawing.Size(72, 23);
+			this.label24.Size = new System.Drawing.Size(86, 25);
 			this.label24.TabIndex = 25;
 			this.label24.Text = "Link Label";
 			// 
@@ -949,16 +949,16 @@ namespace DevAge.TestApp
 			// 
 			this.linkLabel2.BackColor = System.Drawing.SystemColors.Control;
 			this.linkLabel2.BorderColor = System.Drawing.Color.Black;
-			this.linkLabel2.BorderRound = 0;
+			this.linkLabel2.BorderRound = 0D;
 			this.linkLabel2.Cursor = System.Windows.Forms.Cursors.Hand;
 			this.linkLabel2.EnableMouseEffect = true;
 			this.linkLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.linkLabel2.ForeColor = System.Drawing.Color.Blue;
 			this.linkLabel2.Image = ((System.Drawing.Image)(resources.GetObject("linkLabel2.Image")));
 			this.linkLabel2.ImageAlignment = DevAge.Drawing.ContentAlignment.TopCenter;
-			this.linkLabel2.Location = new System.Drawing.Point(100, 20);
+			this.linkLabel2.Location = new System.Drawing.Point(120, 22);
 			this.linkLabel2.Name = "linkLabel2";
-			this.linkLabel2.Size = new System.Drawing.Size(72, 40);
+			this.linkLabel2.Size = new System.Drawing.Size(86, 43);
 			this.linkLabel2.TabIndex = 24;
 			this.linkLabel2.Text = "Sample Link";
 			this.linkLabel2.TextAlignment = DevAge.Drawing.ContentAlignment.BottomCenter;
@@ -976,7 +976,7 @@ namespace DevAge.TestApp
 			this.tabPage1.Controls.Add(this.line2);
 			this.tabPage1.Location = new System.Drawing.Point(4, 22);
 			this.tabPage1.Name = "tabPage1";
-			this.tabPage1.Size = new System.Drawing.Size(448, 322);
+			this.tabPage1.Size = new System.Drawing.Size(540, 349);
 			this.tabPage1.TabIndex = 0;
 			this.tabPage1.Text = "Others";
 			// 
@@ -985,7 +985,7 @@ namespace DevAge.TestApp
 			this.line4.DashStyle = System.Drawing.Drawing2D.DashStyle.DashDot;
 			this.line4.FirstColor = System.Drawing.SystemColors.ControlDark;
 			this.line4.LineStyle = DevAge.Windows.Forms.LineStyle.Vertical;
-			this.line4.Location = new System.Drawing.Point(192, 256);
+			this.line4.Location = new System.Drawing.Point(230, 276);
 			this.line4.Name = "line4";
 			this.line4.SecondColor = System.Drawing.SystemColors.ControlLightLight;
 			this.line4.Size = new System.Drawing.Size(2, 36);
@@ -997,7 +997,7 @@ namespace DevAge.TestApp
 			this.line3.DashStyle = System.Drawing.Drawing2D.DashStyle.Dash;
 			this.line3.FirstColor = System.Drawing.SystemColors.ControlDark;
 			this.line3.LineStyle = DevAge.Windows.Forms.LineStyle.Horizontal;
-			this.line3.Location = new System.Drawing.Point(116, 276);
+			this.line3.Location = new System.Drawing.Point(139, 297);
 			this.line3.Name = "line3";
 			this.line3.SecondColor = System.Drawing.SystemColors.ControlLightLight;
 			this.line3.Size = new System.Drawing.Size(48, 2);
@@ -1006,24 +1006,24 @@ namespace DevAge.TestApp
 			// 
 			// editableControlBase1
 			// 
-			this.editableControlBase1.Location = new System.Drawing.Point(108, 232);
+			this.editableControlBase1.Location = new System.Drawing.Point(130, 250);
 			this.editableControlBase1.Name = "editableControlBase1";
-			this.editableControlBase1.Size = new System.Drawing.Size(60, 20);
+			this.editableControlBase1.Size = new System.Drawing.Size(72, 21);
 			this.editableControlBase1.TabIndex = 17;
 			// 
 			// label23
 			// 
-			this.label23.Location = new System.Drawing.Point(28, 232);
+			this.label23.Location = new System.Drawing.Point(34, 250);
 			this.label23.Name = "label23";
-			this.label23.Size = new System.Drawing.Size(80, 23);
+			this.label23.Size = new System.Drawing.Size(96, 25);
 			this.label23.TabIndex = 16;
 			this.label23.Text = "EditablePanel";
 			// 
 			// label22
 			// 
-			this.label22.Location = new System.Drawing.Point(32, 268);
+			this.label22.Location = new System.Drawing.Point(38, 289);
 			this.label22.Name = "label22";
-			this.label22.Size = new System.Drawing.Size(76, 23);
+			this.label22.Size = new System.Drawing.Size(92, 24);
 			this.label22.TabIndex = 15;
 			this.label22.Text = "Line Control";
 			// 
@@ -1032,7 +1032,7 @@ namespace DevAge.TestApp
 			this.tabPage7.Controls.Add(this.imageNavigator1);
 			this.tabPage7.Location = new System.Drawing.Point(4, 22);
 			this.tabPage7.Name = "tabPage7";
-			this.tabPage7.Size = new System.Drawing.Size(448, 322);
+			this.tabPage7.Size = new System.Drawing.Size(540, 349);
 			this.tabPage7.TabIndex = 6;
 			this.tabPage7.Text = "Image Navigator (Slide)";
 			// 
@@ -1040,11 +1040,11 @@ namespace DevAge.TestApp
 			// 
 			this.imageNavigator1.CurrentImageIndex = -1;
 			this.imageNavigator1.ImageAreaBorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.imageNavigator1.ImageAreaSize = new System.Drawing.Size(156, 56);
+			this.imageNavigator1.ImageAreaSize = new System.Drawing.Size(187, 60);
 			this.imageNavigator1.ImageAreaSizeMode = System.Windows.Forms.PictureBoxSizeMode.Normal;
-			this.imageNavigator1.Location = new System.Drawing.Point(164, 52);
+			this.imageNavigator1.Location = new System.Drawing.Point(197, 56);
 			this.imageNavigator1.Name = "imageNavigator1";
-			this.imageNavigator1.Size = new System.Drawing.Size(156, 88);
+			this.imageNavigator1.Size = new System.Drawing.Size(187, 95);
 			this.imageNavigator1.StatusFormat = "{0} of {1}";
 			this.imageNavigator1.TabIndex = 2;
 			// 
@@ -1053,7 +1053,7 @@ namespace DevAge.TestApp
 			this.tabPage2.Controls.Add(this.headerGroupBox4);
 			this.tabPage2.Location = new System.Drawing.Point(4, 22);
 			this.tabPage2.Name = "tabPage2";
-			this.tabPage2.Size = new System.Drawing.Size(448, 322);
+			this.tabPage2.Size = new System.Drawing.Size(540, 349);
 			this.tabPage2.TabIndex = 1;
 			this.tabPage2.Text = "Gradient 3D Border";
 			// 
@@ -1065,39 +1065,39 @@ namespace DevAge.TestApp
 			this.tabPage6.Controls.Add(this.headerGroupBox5);
 			this.tabPage6.Location = new System.Drawing.Point(4, 22);
 			this.tabPage6.Name = "tabPage6";
-			this.tabPage6.Size = new System.Drawing.Size(448, 322);
+			this.tabPage6.Size = new System.Drawing.Size(540, 349);
 			this.tabPage6.TabIndex = 5;
 			this.tabPage6.Text = "ComboBox and enums";
 			// 
 			// lblCmbValue
 			// 
 			this.lblCmbValue.AutoSize = true;
-			this.lblCmbValue.Location = new System.Drawing.Point(322, 156);
+			this.lblCmbValue.Location = new System.Drawing.Point(386, 168);
 			this.lblCmbValue.Name = "lblCmbValue";
-			this.lblCmbValue.Size = new System.Drawing.Size(22, 13);
+			this.lblCmbValue.Size = new System.Drawing.Size(23, 12);
 			this.lblCmbValue.TabIndex = 14;
 			this.lblCmbValue.Text = "Val";
 			// 
 			// label26
 			// 
-			this.label26.Location = new System.Drawing.Point(16, 153);
+			this.label26.Location = new System.Drawing.Point(19, 165);
 			this.label26.Name = "label26";
-			this.label26.Size = new System.Drawing.Size(140, 16);
+			this.label26.Size = new System.Drawing.Size(168, 17);
 			this.label26.TabIndex = 13;
 			this.label26.Text = "ComboBox custom display";
 			// 
 			// cmbCustomDisplay
 			// 
 			this.cmbCustomDisplay.FormattingEnabled = true;
-			this.cmbCustomDisplay.Location = new System.Drawing.Point(160, 150);
+			this.cmbCustomDisplay.Location = new System.Drawing.Point(192, 162);
 			this.cmbCustomDisplay.Name = "cmbCustomDisplay";
-			this.cmbCustomDisplay.Size = new System.Drawing.Size(156, 21);
+			this.cmbCustomDisplay.Size = new System.Drawing.Size(187, 20);
 			this.cmbCustomDisplay.TabIndex = 7;
 			this.cmbCustomDisplay.SelectedValueChanged += new System.EventHandler(this.cmbCustomDisplay_SelectedValueChanged);
 			// 
 			// frmSample30
 			// 
-			this.AutoScaleBaseSize = new System.Drawing.Size(5, 13);
+			this.AutoScaleBaseSize = new System.Drawing.Size(6, 14);
 			this.ClientSize = new System.Drawing.Size(476, 402);
 			this.Controls.Add(this.tabControl1);
 			this.Controls.Add(this.buttonMultiSelectionClose);
