@@ -27,7 +27,7 @@ namespace SourceGrid.Cells.Views
 		/// </summary>
 		public Button()
 		{
-            Background = new DevAge.Drawing.VisualElements.ButtonThemed();
+			Background = new DevAge.Drawing.VisualElements.ButtonThemed();
 		}
 
 		/// <summary>
@@ -36,7 +36,7 @@ namespace SourceGrid.Cells.Views
 		/// <param name="p_Source"></param>
 		public Button(Button p_Source):base(p_Source)
 		{
-            Background = (DevAge.Drawing.VisualElements.IButton)p_Source.Background.Clone();
+			Background = (DevAge.Drawing.VisualElements.IButton)p_Source.Background.Clone();
 		}
 		#endregion
 
@@ -51,27 +51,28 @@ namespace SourceGrid.Cells.Views
 		}
 		#endregion
 
-        #region Visual Elements
+		#region Visual Elements
 
-        public new DevAge.Drawing.VisualElements.IButton Background
-        {
-            get { return (DevAge.Drawing.VisualElements.IButton)base.Background; }
-            set { base.Background = value; }
-        }
+		public new DevAge.Drawing.VisualElements.IButton Background
+		{
+			get { return (DevAge.Drawing.VisualElements.IButton)base.Background; }
+			set { base.Background = value; }
+		}
 
-        protected override void PrepareView(CellContext context)
-        {
-            base.PrepareView(context);
+		protected override void PrepareView(CellContext context)
+		{
+			base.PrepareView(context);
 
-            if (context.CellRange.Contains(context.Grid.MouseDownPosition))
-                Background.Style = DevAge.Drawing.ButtonStyle.Pressed;
-            else if (context.CellRange.Contains(context.Grid.MouseCellPosition))
-                Background.Style = DevAge.Drawing.ButtonStyle.Hot;
-            else if (context.CellRange.Contains(context.Grid.Selection.ActivePosition))
-                Background.Style = DevAge.Drawing.ButtonStyle.Focus;
-            else
-                Background.Style = DevAge.Drawing.ButtonStyle.Normal;
-        }
-        #endregion
+			if (context.CellRange.Contains(context.Grid.MouseDownPosition))
+				Background.Style = DevAge.Drawing.ButtonStyle.Pressed;
+			else if (context.CellRange.Contains(context.Grid.MouseCellPosition))
+				Background.Style = DevAge.Drawing.ButtonStyle.Hot;
+			else if (context.CellRange.Contains(context.Grid.Selection.ActivePosition))
+				Background.Style = DevAge.Drawing.ButtonStyle.Focus;
+			else
+				Background.Style = DevAge.Drawing.ButtonStyle.Normal;
+
+		}
+		#endregion
 	}
 }

@@ -5,14 +5,14 @@ namespace SourceGrid.Cells.Controllers
 {
 	/// <summary>
 	/// Common behavior of the cell. 
-    /// This controller can be shared between multiple cells and is usually used as the default Grid.Controller. Removing this controller can cause unexpected behaviors.
+	/// This controller can be shared between multiple cells and is usually used as the default Grid.Controller. Removing this controller can cause unexpected behaviors.
 	/// </summary>
 	public class StandardBehavior : ControllerBase
 	{
 		/// <summary>
 		/// The default behavior of a cell.
 		/// </summary>
-        public readonly static StandardBehavior Default = new StandardBehavior();
+		public readonly static StandardBehavior Default = new StandardBehavior();
 
 		public override void OnKeyDown (CellContext sender, KeyEventArgs e)
 		{
@@ -66,11 +66,11 @@ namespace SourceGrid.Cells.Controllers
 			base.OnFocusEntered(sender, e);
 
 			//If not visible I move the scroll to show it
-            //ORIG:sender.Grid.ShowCell(sender.Position, true);
-            //MICK(2)
+			//ORIG:sender.Grid.ShowCell(sender.Position, true);
+			//MICK(2)
 			sender.Grid.ShowCell(sender.Position, false);
 
-			//Getsione dell'edit sul focus, non lo metto all'interno della cella perchè un utente potrebbe chiamare direttamente il metodo SetFocusCell senza passare dalla cella
+			//Getsione dell'edit sul focus, non lo metto all'interno della cella perch?un utente potrebbe chiamare direttamente il metodo SetFocusCell senza passare dalla cella
 			if ( sender.Cell.Editor != null && (sender.Cell.Editor.EditableMode & EditableMode.Focus) == EditableMode.Focus)
 				sender.StartEdit();
 
@@ -117,15 +117,15 @@ namespace SourceGrid.Cells.Controllers
 			sender.Grid.Selection.Invalidate();
 		}
 
-        public override bool CanReceiveFocus(CellContext sender, EventArgs e)
-        {
-            //Return false if the row or the column is not visible
-            if (sender.Grid.Columns.IsColumnVisible(sender.Position.Column) == false)
-                return false;
-            if (sender.Grid.Rows.IsRowVisible(sender.Position.Row) == false)
-                return false;
+		public override bool CanReceiveFocus(CellContext sender, EventArgs e)
+		{
+			//Return false if the row or the column is not visible
+			if (sender.Grid.Columns.IsColumnVisible(sender.Position.Column) == false)
+				return false;
+			if (sender.Grid.Rows.IsRowVisible(sender.Position.Row) == false)
+				return false;
 
-            return base.CanReceiveFocus(sender, e);
-        }
+			return base.CanReceiveFocus(sender, e);
+		}
 	}
 }

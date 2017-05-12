@@ -195,15 +195,15 @@ namespace SourceGrid
 			Range complete = CompleteRange;
 
 			if (m_MouseCellPosition.IsEmpty() == false &&
-			    CompleteRange.Contains(m_MouseCellPosition) == false)
+				CompleteRange.Contains(m_MouseCellPosition) == false)
 				m_MouseCellPosition = Position.Empty;
 
 			if (m_MouseDownPosition.IsEmpty() == false &&
-			    CompleteRange.Contains(m_MouseDownPosition) == false)
+				CompleteRange.Contains(m_MouseDownPosition) == false)
 				m_MouseDownPosition = Position.Empty;
 
 			if (mDragCellPosition.IsEmpty() == false &&
-			    CompleteRange.Contains(mDragCellPosition) == false)
+				CompleteRange.Contains(mDragCellPosition) == false)
 				mDragCellPosition = Position.Empty;
 
 			//If the selection contains some invalid cells reset the selection state.
@@ -304,7 +304,7 @@ namespace SourceGrid
 			if (areaType == CellPositionType.FixedTopLeft)
 			{
 				if (FixedRows > 0 && Rows.Count >= FixedRows &&
-				    FixedColumns > 0 && Columns.Count >= FixedColumns)
+					FixedColumns > 0 && Columns.Count >= FixedColumns)
 					return new Range(0, 0, FixedRows - 1, FixedColumns - 1);
 				else
 					return Range.Empty;
@@ -352,11 +352,11 @@ namespace SourceGrid
 				int? lastCol = Columns.LastVisibleScrollableColumn;
 
 				if (firstRow == null || firstCol == null ||
-				    lastRow == null || lastCol == null)
+					lastRow == null || lastCol == null)
 					return Range.Empty;
 
 				return new Range(firstRow.Value, firstCol.Value,
-				                 lastRow.Value, lastCol.Value);
+								 lastRow.Value, lastCol.Value);
 			}
 			else
 				throw new SourceGridException("Invalid areaType");
@@ -540,20 +540,20 @@ namespace SourceGrid
 		}
 
 		/*
-        //MICK(14)
-        protected int GetHiddenRows()
-        {
-            int HiddenRows=0;
+		//MICK(14)
+		protected int GetHiddenRows()
+		{
+			int HiddenRows=0;
 
-            for (int r = 0; r < Rows.Count; r++)
-            {
-                //IsRowVisible - this function name is confusing - is it visible on the screen? - no.
-                //Also FirstVisibleScrollableRow - is it a bug - it does not consider hidden rows?
-                if (!Rows.IsRowVisible(r)) HiddenRows++;
-            }
+			for (int r = 0; r < Rows.Count; r++)
+			{
+				//IsRowVisible - this function name is confusing - is it visible on the screen? - no.
+				//Also FirstVisibleScrollableRow - is it a bug - it does not consider hidden rows?
+				if (!Rows.IsRowVisible(r)) HiddenRows++;
+			}
 
-            return HiddenRows;
-        }
+			return HiddenRows;
+		}
 		 */
 
 		/// <summary>
@@ -777,8 +777,10 @@ namespace SourceGrid
 				if (clippedRange.IsEmpty() == false)
 				{
 					Rectangle gridRectangle = RangeToRectangle(clippedRange);
-					if (gridRectangle.IsEmpty == false)
-						Invalidate(gridRectangle, true);
+					if (gridRectangle.IsEmpty == false) {
+						//Invalidate(gridRectangle, true);
+						Refresh();
+					}
 				}
 			}
 		}
@@ -818,11 +820,11 @@ namespace SourceGrid
 
 			int? last = this.Columns.LastVisibleScrollableColumn;
 			if (mousePoint.X > scrollRect.Right && (! last.HasValue ||
-			                                        last.Value < this.Columns.Count - 1 || this.Columns.GetRight(last.Value) > scrollRect.Right) )
+													last.Value < this.Columns.Count - 1 || this.Columns.GetRight(last.Value) > scrollRect.Right) )
 				CustomScrollLineRight();
 			last = this.Rows.LastVisibleScrollableRow;
 			if (mousePoint.Y > scrollRect.Bottom && (! last.HasValue ||
-			                                         last.Value < this.Rows.Count - 1 || this.Rows.GetBottom(last.Value) > scrollRect.Bottom) )
+													 last.Value < this.Rows.Count - 1 || this.Rows.GetBottom(last.Value) > scrollRect.Bottom) )
 				CustomScrollLineDown();
 			if (mousePoint.X < scrollRect.Left)
 				CustomScrollLineLeft();
@@ -1060,7 +1062,7 @@ namespace SourceGrid
 			{
 				//se la cella che sta perdento il mouse ?anche quella che ha ricevuto un eventuale evento di MouseDown non scateno il MouseLeave (che invece verr?scatenato dopo il MouseUp)
 				if (m_MouseCellPosition.IsEmpty() == false &&
-				    m_MouseCellPosition != m_MouseDownPosition)
+					m_MouseCellPosition != m_MouseDownPosition)
 				{
 					Controller.OnMouseLeave(new CellContext(this, m_MouseCellPosition), EventArgs.Empty);
 				}
@@ -1173,7 +1175,7 @@ namespace SourceGrid
 		/// <summary>
 		/// Stores the active position when user presses shift
 		/// </summary>
- 		private Position m_firstCellShiftSelected;
+		private Position m_firstCellShiftSelected;
 
 		/// <summary>
 		/// Processes a command key.
@@ -1193,10 +1195,10 @@ namespace SourceGrid
 			}
 
 			if ((keyData == Keys.Enter ||
-			     keyData == Keys.Escape ||
-			     keyData == Keys.Tab ||
-			     keyData == (Keys.Tab | Keys.Shift)) &&
-			    OverrideCommonCmdKey)
+				 keyData == Keys.Escape ||
+				 keyData == Keys.Tab ||
+				 keyData == (Keys.Tab | Keys.Shift)) &&
+				OverrideCommonCmdKey)
 			{
 				KeyEventArgs args = new KeyEventArgs(keyData);
 				OnKeyDown(args);
@@ -1353,7 +1355,7 @@ namespace SourceGrid
 				}
 			}
 			else if ( (e.KeyCode == Keys.PageUp || e.KeyCode == Keys.PageDown)
-			         && enablePageDownUp)
+					 && enablePageDownUp)
 			{
 				//MICK(18): I commented out this part - focusing is done within my CustomScrollPageDown() and CustomScrollPageUp()
 				//Point focusPoint = PositionToRectangle(Selection.ActivePosition).Location;
@@ -1444,7 +1446,7 @@ namespace SourceGrid
 			Range destinationRange = new Range(
 				new Position(rng.Start.Row, rng.Start.Column),
 				new Position(rng.Start.Row + (data.End.Row - data.Start.Row),
-				             rng.Start.Column + (data.End.Column - data.Start.Column)));
+							 rng.Start.Column + (data.End.Column - data.Start.Column)));
 			
 			rngData.WriteData(this, rng.Start);
 			
@@ -1584,7 +1586,7 @@ namespace SourceGrid
 
 							//Draw the cell only if inside the ClipRectangle
 							if (e.GraphicsCache.ClipRectangle.IsEmpty ||
-							    e.GraphicsCache.ClipRectangle.IntersectsWith(drawRect))
+								e.GraphicsCache.ClipRectangle.IntersectsWith(drawRect))
 							{
 								CellContext cellContext = new CellContext(this, position, cell);
 								PaintCell(e.GraphicsCache, cellContext, drawRect);
@@ -1617,11 +1619,11 @@ namespace SourceGrid
 		/// Draw the specified Cell
 		/// </summary>
 		protected virtual void PaintCell(DevAge.Drawing.GraphicsCache graphics,
-		                                 CellContext cellContext,
-		                                 RectangleF drawRectangle)
+										 CellContext cellContext,
+										 RectangleF drawRectangle)
 		{
 			if (drawRectangle.Width > 0 && drawRectangle.Height > 0 &&
-			    cellContext.CanBeDrawn() )
+				cellContext.CanBeDrawn() )
 			{
 				cellContext.Cell.View.DrawCell(cellContext, graphics, drawRectangle);
 			}
@@ -1719,7 +1721,7 @@ namespace SourceGrid
 			//Se ho precedentemente scatenato un MouseDown su una cella
 			// e se questa corrisponde alla cella sotto il puntatore del mouse (non posso usare MouseCellPosition perch?questa viene aggiornata solo quando non si ha una cella come MouseDownPosition
 			if (MouseDownPosition.IsEmpty() == false &&
-			    MouseDownPosition == clickPosition)
+				MouseDownPosition == clickPosition)
 			{
 				Cells.ICellVirtual mouseDownCell = GetCell(MouseDownPosition);
 				if (mouseDownCell != null)
@@ -1814,7 +1816,7 @@ namespace SourceGrid
 
 			//Che if is not Tab, Enter or Copy/Paste
 			if (m_keybordActivePosition.IsEmpty() || e.KeyChar == '\t' || e.KeyChar == 13 ||
-			    e.KeyChar == 3 || e.KeyChar == 22 || e.KeyChar == 24)
+				e.KeyChar == 3 || e.KeyChar == 22 || e.KeyChar == 24)
 			{
 			}
 			else
@@ -1858,7 +1860,7 @@ namespace SourceGrid
 
 			//Move the focus on the first cell if there isn't an active cell and the FocusStyle FocusFirstCellOnEnter is on.
 			if ((Selection.FocusStyle & FocusStyle.FocusFirstCellOnEnter) == FocusStyle.FocusFirstCellOnEnter &&
-			    mAutoFocusFirstCellOnEnter && Selection.ActivePosition.IsEmpty())
+				mAutoFocusFirstCellOnEnter && Selection.ActivePosition.IsEmpty())
 			{
 				Selection.FocusFirstCell(false);
 			}
@@ -2041,9 +2043,9 @@ namespace SourceGrid
 		/// <param name="p_bAsc">Ascending true, Descending false</param>
 		/// <param name="p_CellComparer">CellComparer, if null the default comparer will be used</param>
 		public void SortRangeRows(IRangeLoader p_RangeToSort,
-		                          int keyColumn,
-		                          bool p_bAsc,
-		                          IComparer p_CellComparer)
+								  int keyColumn,
+								  bool p_bAsc,
+								  IComparer p_CellComparer)
 		{
 			Range l_Range = p_RangeToSort.GetRange(this);
 			SortRangeRows(l_Range, keyColumn, p_bAsc, p_CellComparer);
@@ -2057,9 +2059,9 @@ namespace SourceGrid
 		/// <param name="p_bAscending">Ascending true, Descending false</param>
 		/// <param name="p_CellComparer">CellComparer, if null the default ValueCellComparer comparer will be used</param>
 		public void SortRangeRows(Range p_Range,
-		                          int keyColumn,
-		                          bool p_bAscending,
-		                          IComparer p_CellComparer)
+								  int keyColumn,
+								  bool p_bAscending,
+								  IComparer p_CellComparer)
 		{
 			SortRangeRowsEventArgs eventArgs = new SortRangeRowsEventArgs(p_Range, keyColumn, p_bAscending, p_CellComparer);
 

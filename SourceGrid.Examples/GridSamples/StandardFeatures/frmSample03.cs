@@ -56,8 +56,8 @@ namespace WindowsFormsSample
 			// grid
 			// 
 			this.grid.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-			                                                          | System.Windows.Forms.AnchorStyles.Left)
-			                                                         | System.Windows.Forms.AnchorStyles.Right)));
+																	  | System.Windows.Forms.AnchorStyles.Left)
+																	 | System.Windows.Forms.AnchorStyles.Right)));
 			this.grid.AutoStretchColumnsToFitWidth = false;
 			this.grid.AutoStretchRowsToFitHeight = false;
 			this.grid.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
@@ -286,7 +286,7 @@ namespace WindowsFormsSample
 			grid[currentRow, 0].View = captionModel;
 			SourceGrid.Cells.Editors.TextBox dblCustomConversion = new SourceGrid.Cells.Editors.TextBox(typeof(double));
 			dblCustomConversion.ConvertingObjectToValue += delegate(object sender,
-			                                                        DevAge.ComponentModel.ConvertingObjectEventArgs conv)
+																	DevAge.ComponentModel.ConvertingObjectEventArgs conv)
 			{
 				if (conv.Value is string)
 				{
@@ -342,8 +342,8 @@ namespace WindowsFormsSample
 			grid[currentRow, 0].View = captionModel;
 			SourceGrid.Cells.Editors.ComboBox comboAutoComplete =
 				new SourceGrid.Cells.Editors.ComboBox(typeof(string),
-				                                      new string[] { "AAA", "ABC", "AZA", "BAA", "ZAA" },
-				                                      true);
+													  new string[] { "AAA", "ABC", "AZA", "BAA", "ZAA" },
+													  true);
 			comboAutoComplete.Control.AutoCompleteSource = AutoCompleteSource.ListItems;
 			comboAutoComplete.Control.AutoCompleteMode = AutoCompleteMode.Append;
 			grid[currentRow, 1] = new SourceGrid.Cells.Cell("AAA", comboAutoComplete);
@@ -468,11 +468,11 @@ namespace WindowsFormsSample
 			currentRow++;
 			
 			// Richtext box
-            grid[currentRow, 0] = new SourceGrid.Cells.Cell("RichTextBox editor");
-            grid[currentRow, 0].View = captionModel;
-            string rtf = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0" +
-                    "Microsoft Sans Serif;}}\r\n\\viewkind4\\uc1\\pard\\f0\\fs17 Only a \\b " +
-                    "Test\\b0.\\par\r\n}\r\n";
+			grid[currentRow, 0] = new SourceGrid.Cells.Cell("RichTextBox editor");
+			grid[currentRow, 0].View = captionModel;
+			string rtf = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0" +
+					"Microsoft Sans Serif;}}\r\n\\viewkind4\\uc1\\pard\\f0\\fs17 Only a \\b " +
+					"Test\\b0.\\par\r\n}\r\n";
 			var richTextBox = new SourceGrid.Cells.RichTextBox(new RichText(rtf));
 			grid[currentRow, 1] = richTextBox;
 
@@ -531,9 +531,9 @@ namespace WindowsFormsSample
 
 			SourceGrid.Cells.Views.Cell viewCustomBorder = new SourceGrid.Cells.Views.Cell();
 			viewCustomBorder.Border = new DevAge.Drawing.RectangleBorder(new DevAge.Drawing.BorderLine(Color.Red, 1),
-			                                                             new DevAge.Drawing.BorderLine(Color.Blue, 1),
-			                                                             new DevAge.Drawing.BorderLine(Color.Violet, 1),
-			                                                             new DevAge.Drawing.BorderLine(Color.Green, 1));
+																		 new DevAge.Drawing.BorderLine(Color.Blue, 1),
+																		 new DevAge.Drawing.BorderLine(Color.Violet, 1),
+																		 new DevAge.Drawing.BorderLine(Color.Green, 1));
 			grid[currentRow, 1] = new SourceGrid.Cells.Cell("Custom Border");
 			grid[currentRow, 1].View = viewCustomBorder;
 

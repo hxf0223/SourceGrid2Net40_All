@@ -17,9 +17,9 @@ namespace SourceGrid.Cells.Virtual
 			AddController(Controllers.CheckBox.Default);
 			AddController(Controllers.MouseInvalidate.Default);
 
-            //I use an editor to validate the value and also because the space key are 
-            // directly used by the controller, so must not start an edit operation but must still edit the value
-            Editor = new Editors.EditorBase(typeof(bool));
+			//I use an editor to validate the value and also because the space key are 
+			// directly used by the controller, so must not start an edit operation but must still edit the value
+			Editor = new Editors.EditorBase(typeof(bool));
 			Editor.EditableMode = SourceGrid.EditableMode.None;
 
 			Model.AddModel(new Models.CheckBox());
@@ -59,8 +59,8 @@ namespace SourceGrid.Cells
 			AddController(Controllers.CheckBox.Default);
 			AddController(Controllers.MouseInvalidate.Default);
 
-            //I use an editor to validate the value and also because the space key are 
-            // directly used by the controller, so must not start an edit operation but must still edit the value
+			//I use an editor to validate the value and also because the space key are 
+			// directly used by the controller, so must not start an edit operation but must still edit the value
 			Editor = new Editors.EditorBase(typeof(bool));
 			Editor.EditableMode = SourceGrid.EditableMode.None;
 

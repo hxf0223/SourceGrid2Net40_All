@@ -42,7 +42,7 @@ namespace SourceGrid.Cells.Views
 
 
 		/// <summary>
-        /// The normal border of a cell. Usually it is an instance of a DevAge.Drawing.RectangleBorder structure
+		/// The normal border of a cell. Usually it is an instance of a DevAge.Drawing.RectangleBorder structure
 		/// </summary>
 		DevAge.Drawing.IBorder Border
 		{
@@ -72,8 +72,8 @@ namespace SourceGrid.Cells.Views
 		/// Draw the cell specified
 		/// </summary>
 		/// <param name="cellContext"></param>
-        /// <param name="graphics">Paint arguments</param>
-        /// <param name="rectangle">Rectangle where draw the current cell</param>
+		/// <param name="graphics">Paint arguments</param>
+		/// <param name="rectangle">Rectangle where draw the current cell</param>
 		void DrawCell(CellContext cellContext,
 			DevAge.Drawing.GraphicsCache graphics, 
 			System.Drawing.RectangleF rectangle);

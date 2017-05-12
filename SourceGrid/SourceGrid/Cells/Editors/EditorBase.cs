@@ -6,8 +6,8 @@ namespace SourceGrid.Cells.Editors
 	/// <summary>
 	/// Represents the base class of a DataModel. This DataModel support conversion but doesn't provide any user interface editor.
 	/// </summary>
-    [System.ComponentModel.ToolboxItem(false)]
-    public class EditorBase : DevAge.ComponentModel.Validator.ValidatorTypeConverter
+	[System.ComponentModel.ToolboxItem(false)]
+	public class EditorBase : DevAge.ComponentModel.Validator.ValidatorTypeConverter
 	{
 		#region Constructor
 		/// <summary>
@@ -115,15 +115,15 @@ namespace SourceGrid.Cells.Editors
 			set{m_bEnableCellDrawOnEdit = value;}
 		}
 
-        private bool mUseCellViewProperties = true;
-        /// <summary>
-        /// Gets or sets if the editor must assign to the editor control the default view properties: ForeColor, BackColor, Font. This can be disabled if you want to manually assign these properties to the control.
-        /// </summary>
-        public virtual bool UseCellViewProperties
-        {
-            get { return mUseCellViewProperties; }
-            set { mUseCellViewProperties = value; }
-        }
+		private bool mUseCellViewProperties = true;
+		/// <summary>
+		/// Gets or sets if the editor must assign to the editor control the default view properties: ForeColor, BackColor, Font. This can be disabled if you want to manually assign these properties to the control.
+		/// </summary>
+		public virtual bool UseCellViewProperties
+		{
+			get { return mUseCellViewProperties; }
+			set { mUseCellViewProperties = value; }
+		}
 
 		#endregion
 
@@ -237,13 +237,13 @@ namespace SourceGrid.Cells.Editors
 
 		#region Validating
 
-        //TODO: Remove OnValidated and OnValidating methods. For a better user experience (focus, validating, ...) must be used the validating event of the Control. The cell simply check if the value is valid but cannot handle correctly the user interface.
+		//TODO: Remove OnValidated and OnValidating methods. For a better user experience (focus, validating, ...) must be used the validating event of the Control. The cell simply check if the value is valid but cannot handle correctly the user interface.
 
 		/// <summary>
 		/// Functions used when the validating operation is finished
 		/// </summary>
 		/// <param name="e"></param>
-        protected void OnValidated(CellContextEventArgs e)
+		protected void OnValidated(CellContextEventArgs e)
 		{
 			if (m_Validated!=null)
 				m_Validated(this,e);
@@ -263,8 +263,8 @@ namespace SourceGrid.Cells.Editors
 		/// <summary>
 		/// Validating event
 		/// </summary>
-        [Obsolete("You should use the Control.Validating event")]
-        public event ValidatingCellEventHandler Validating
+		[Obsolete("You should use the Control.Validating event")]
+		public event ValidatingCellEventHandler Validating
 		{
 			add{m_Validating += value;}
 			remove{m_Validating -= value;}
@@ -272,8 +272,8 @@ namespace SourceGrid.Cells.Editors
 		/// <summary>
 		/// Validated event
 		/// </summary>
-        [Obsolete("You should use the Control.Validated event")]
-        public event CellContextEventHandler Validated
+		[Obsolete("You should use the Control.Validated event")]
+		public event CellContextEventHandler Validated
 		{
 			add{m_Validated += value;}
 			remove{m_Validated -= value;}
@@ -310,16 +310,16 @@ namespace SourceGrid.Cells.Editors
 		}
 		#endregion
 
-        #region Minimum Size
-        /// <summary>
-        /// Calculate the minimum required size for the specified editor cell.
-        /// </summary>
-        /// <param name="cellContext"></param>
-        /// <returns></returns>
-        public virtual System.Drawing.Size GetMinimumSize(CellContext cellContext)
-        {
-            return System.Drawing.Size.Empty;
-        }
-        #endregion
-    }
+		#region Minimum Size
+		/// <summary>
+		/// Calculate the minimum required size for the specified editor cell.
+		/// </summary>
+		/// <param name="cellContext"></param>
+		/// <returns></returns>
+		public virtual System.Drawing.Size GetMinimumSize(CellContext cellContext)
+		{
+			return System.Drawing.Size.Empty;
+		}
+		#endregion
+	}
 }
