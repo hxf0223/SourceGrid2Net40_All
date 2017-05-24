@@ -778,8 +778,8 @@ namespace SourceGrid
 				{
 					Rectangle gridRectangle = RangeToRectangle(clippedRange);
 					if (gridRectangle.IsEmpty == false) {
-						//Invalidate(gridRectangle, true);
-						Refresh();
+						Invalidate(gridRectangle, true);
+						//Refresh();
 					}
 				}
 			}
