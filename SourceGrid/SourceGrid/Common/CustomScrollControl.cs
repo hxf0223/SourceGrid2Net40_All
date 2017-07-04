@@ -388,10 +388,10 @@ namespace SourceGrid
 			//PrepareScrollBars(scrollCols > 0, scrollRows > 0);
 
 			//Finally I read the actual values to use (that can be changed because I have called PrepareScrollBars)
-			if (scrollRows > 0)
+			if ( scrollRows > 0 || scrollCols > 0) {
 				scrollRows = GetScrollRows(DisplayRectangle.Height);
-			if (scrollCols > 0)
 				scrollCols = GetScrollColumns(DisplayRectangle.Width);
+			}
 
 			//MICK(6)
 			scrollRows = scrollRows - GetActualFixedRows();

@@ -504,7 +504,7 @@ namespace SourceGrid
 			//Remove the fixed rows from the scrollable area
 			for (int f = 0; f < ActualFixedRows; f++) {
 				displayHeight -= Rows.GetHeight(f);
-				scrollable_row_num--;
+				//scrollable_row_num--;
 			}
 
 			//Calculate the rows to be scrolled
@@ -515,7 +515,7 @@ namespace SourceGrid
 				currentHeight += Rows.GetHeight(r);
 
 				if (currentHeight > displayHeight)
-					return scrollable_row_num - scrollRows - GetTotalHiddenRows( r );
+					return scrollable_row_num - scrollRows - GetTotalHiddenRows(r);
 
 				scrollRows++;
 			}
@@ -576,7 +576,7 @@ namespace SourceGrid
 			//Remove the fixed columns from the scrollable area
 			for (int f = 0; f < ActualFixedColumns; f++) {
 				displayWidth -= Columns.GetWidth(f);
-				scrollable_col_num--;
+				//scrollable_col_num--;
 			}
 
 			//Calculate the columns to be scrolled
