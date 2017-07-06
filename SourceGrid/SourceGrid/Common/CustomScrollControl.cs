@@ -352,7 +352,9 @@ namespace SourceGrid
 			mVScrollBar.Minimum = 0;
 			//MICK(4): Now (rows + VerticalPage - 1) equals the count of all rows minus fixed rows...
 			// But I do not change it here because I do not know how to do that properly
-			mVScrollBar.Maximum = rows + VerticalPage - 1;
+			//mVScrollBar.Maximum = rows + VerticalPage - 1;
+			mVScrollBar.Maximum = rows + VerticalPage;
+
 			//MICK(5): this is changed too
 			if (VerticalPage > 1)
 				mVScrollBar.LargeChange = VerticalPage;
