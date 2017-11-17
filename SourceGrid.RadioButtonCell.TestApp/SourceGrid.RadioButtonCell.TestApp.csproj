@@ -70,10 +70,6 @@
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="SourceGrid, Version=4.0.0.4, Culture=neutral, PublicKeyToken=f70ec30aa5408108, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\SourceGrid.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
@@ -119,6 +115,10 @@
     <ProjectReference Include="..\SourceGrid.RadioButtonCell\SourceGrid.RadioButtonCell.csproj">
       <Project>{D77EBDC8-52BF-4357-BE84-07522D3E89CA}</Project>
       <Name>SourceGrid.RadioButtonCell</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SourceGrid\SourceGrid.csproj">
+      <Project>{2a5a1657-dba8-4117-8e2a-9f1236ace9e2}</Project>
+      <Name>SourceGrid</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
